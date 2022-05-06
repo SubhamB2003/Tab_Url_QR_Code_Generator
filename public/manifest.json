@@ -3,8 +3,11 @@
     "version": "1.0",
     "name": "QR Generator",
     "action": {
-        "default_popup": "index.html",
-        "default_icon": "pic_128.jpg"
+        "default_popup": "index.html"
+    },
+    "icons": {
+        "128": "pic_128.png",
+        "16": "pic_16.jpg"
     },
     "permissions": [
         "tabs"

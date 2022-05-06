@@ -17,7 +17,7 @@ function App() {
 
   return (
     <div className='bg'>
-      <div className="container" style={{ height: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+      <div className="container" style={{ height: '150vh', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
         <div className="bg-white mt-10 rounded-xl shadow-2xl shadow-black" style={{ backgroundColor: 'white' }}>
           <div className='p-10'>
             <h1 className="font-serif text-4xl text-center">QR Code Generator</h1>

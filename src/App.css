@@ -78,6 +78,14 @@
   --tw-shadow: var(--tw-shadow-colored);
 }
 
+.rounded-xl {
+  border-radius: 0.75rem /* 12px */;
+}
+
+.p-6 {
+  padding: 1.5rem /* 24px */;
+}
+
 .p-10 {
   padding: 2.5rem /* 40px */;
 }
