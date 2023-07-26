@@ -17,14 +17,14 @@ function App() {
 
   return (
     <div className='bg'>
-      <div className="container" style={{ height: '150vh', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-        <div className="bg-white mt-10 rounded-xl shadow-2xl shadow-black" style={{ backgroundColor: 'white' }}>
+      <div className="container" style={{ height: '120vh', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+        <div className="bg-white rounded-xl shadow-2xl shadow-black" style={{ backgroundColor: 'white' }}>
           <div className='p-10'>
             <h1 className="font-serif text-4xl text-center">QR Code Generator</h1>
             <p className='font-serif text-center pt-2 text-gray-600 text-lg'>Click the button and generate the current tab qr code</p>
             <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
               <button
-                className="btn text-center font-serif px-20 py-4 text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:outline-none font-medium rounded-lg pt-4"
+                className="btn text-xl text-center font-serif px-20 py-4 text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:outline-none font-medium rounded-lg pt-4"
                 onClick={() => handleClick()}
               >
                 Generate QR Code
