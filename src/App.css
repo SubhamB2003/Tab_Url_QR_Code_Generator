@@ -81,10 +81,7 @@
 .rounded-xl {
   border-radius: 0.75rem /* 12px */;
 }
-.text-xl {
-  font-size: 1.50rem /* 20px */;
-  line-height: 1.75rem /* 28px */;
-}
+
 .p-6 {
   padding: 1.5rem /* 24px */;
 }
