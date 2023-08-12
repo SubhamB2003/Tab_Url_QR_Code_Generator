@@ -1,5 +1,6 @@
 import { useState } from 'react';
-import './App.css'
+import './App.css';
+import bell from "./sounds/done.mp3";
 /*global chrome*/
 
 function App() {
@@ -7,10 +8,15 @@ function App() {
   const [qrImg, setQrImg] = useState('');
   const [check, setCheck] = useState(false);
 
+  const successBell = () => {
+    new Audio(bell).play();
+  }
+
   const handleClick = () => {
     chrome.tabs.query({ active: true, lastFocusedWindow: true }, tabs => {
       let URL = tabs[0].url;
       setQrImg(`https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=${URL}`);
+      successBell();
       setCheck(true);
     });
   }
